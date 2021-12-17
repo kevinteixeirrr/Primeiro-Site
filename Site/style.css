@@ -1,0 +1,350 @@
+
+header{
+	display: block;
+	margin-bottom: 1px;	
+
+
+}
+
+body{
+	background: #FF5555;
+	color: #FFDD22;
+	font-size: 18px;
+	font-family: georgia,lato, serif;
+
+}
+
+
+nav{
+	display: block;
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+	font-weight: bold;
+	font-family: rubik,verdana, sans-serif;
+	font-size: 17px;
+
+	
+}
+
+section{
+	display: block;
+	width: 70%;
+	float: right;
+}
+
+
+a{
+	color: #FFDD22;
+}
+a:visited {
+	color: #AA0000;
+}
+
+
+h2{
+	text-align: center;
+}
+
+ol{
+	line-height: 200%;
+}
+
+ul{
+
+	color: #FFDD22;
+	line-height: 230%;
+	margin-top: 40px;
+	list-style-type: disc;
+}
+
+b{
+	color: #EE0000;
+}
+
+ol > a{
+	text-decoration: none;
+	color:#AA0000;
+		
+}
+ 
+
+
+
+
+td{
+	border: 3px solid #226699;
+	padding: 6px 12px 6px 12px;
+}
+
+th{
+	border: 3px solid #226699;
+	padding: 6px 12px 6px 12px;
+
+	
+}
+
+nav > ul> li >a{
+	color:#FFDD00 ;
+	text-decoration: none;
+	list-style-type: square;
+	margin-top: 40;
+}
+
+
+.ender{ 
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	line-height: 140%;
+	
+}
+
+.imgLog{ 
+	border-bottom: solid 3px;
+	margin-bottom: 6px;
+	padding-bottom: 5px;
+}
+
+
+.apres{
+	text-align: center;
+	font-size: 18px;
+			
+}
+ 
+#ListaComMel{
+	width: 450px;
+	color:#AA0000 ;
+	background-color: #EECC88;
+	padding: 10px ,10px, 10px, 50px;
+	border: 2px solid #000055;
+	margin:15px auto 10px auto;
+	list-style-type: upper-roman;
+	font-family: rubik, verdana, sans-serif;
+}
+ 
+
+.TabMel{
+	border-collapse: collapse;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	background: #FFCC44;
+	color:#000066 ;
+	font-family: rubik, verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.linTH{
+	color: #FFFFFF;
+	background: #22AA55;
+	vertical-align: middle;
+}
+
+.colTH{ 
+	color:#FFFFFF ;
+	background: #2299DD;
+	text-align: left;
+
+
+}
+
+.th{
+	color: #FFFF00;
+	background: #228855;
+	font-size: 24px;
+	text-align: center;
+}
+
+.imgDaBel{
+	width: 70px;
+	height: 70px;
+}
+
+.divCompras{
+	width: 550px;
+	color: #2255AA;
+	background: #EEEEAA;
+	padding: 6px 6px 15px 6px;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #77CCDD;
+
+
+}
+
+form{
+	border-radius: 10%;
+}
+.colLabSelProd{
+	width: 230px;
+	height:40px;
+	float: left;
+}
+
+.listaCompras{
+	width: 210px;
+	height:160px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+}
+
+
+.colSelProd{
+	width: 160px;
+	float: right;
+	
+}
+.linhaProdSel{
+	width: 220px;
+	margin-bottom: 6px;
+	float: left;
+	margin-right: 6px;
+}
+
+.elemEsq{
+	display: block;
+	float: left;
+}
+
+.fsEsq{
+	float: left;
+	display: inline;
+	margin: 0px;
+}
+
+.elemDir{
+	display: block;
+	float: right;
+}
+
+.fsDir{
+	float: right;
+	display: inline;
+	margin: 0px;
+}
+
+.botoes{
+	text-align: right;
+	margin: 20px 10px 0px 10px;
+}
+.impTelef{
+	width: 90px;
+
+}
+.impGrande{
+	width: 380px;
+}
+
+.impMedio{
+	width:80px;
+}
+.impNCC{ 
+	width: 130px;
+
+}
+
+.impTel{
+	width:90px;
+}
+
+.impEnder{
+	width:180px;
+	height:50px;
+
+}
+
+.numDD{
+	width:30px;
+
+}
+.numQD{
+	width:50px;
+}
+
+.divLinha{
+	width:500px;
+	margin-bottom: 6px;
+
+}
+
+.colLabCrd{
+	width:260px;
+	height:40px;
+	float: left;
+	margin-right: 6px;
+}
+
+.colPri{
+	width: 90px;
+	float: left;
+	display:block;
+}
+
+.colPriCompras{
+	float: left;
+	display: block;
+	width:86px;
+}
+
+.colPriPag{
+	float: left;
+	display: block;
+	width: 250px;
+}
+
+.janelaInfo{
+	width: 300px;
+	text-align: center;
+	color: #AA0000;
+	background-color: #EECC88;
+	padding: 20px;
+	border: solid color #000055;
+	font-family: rubik, verdana, sans-serif;
+}
+
+.janInfoImg{
+	text-align: center;
+	border: solid 2px #000055 ;
+	background-color: white;
+	margin: 30px;
+}
+.janInfoDetalhe{
+	text-align: left ;
+	margin: 20px;
+}
+
+#titDes{
+	height: 60px;
+	text-align: center;
+}
+#proDes{
+	height: 40px;
+}
+
+#imgDes{
+	width: 100px;
+	height: 100px;
+	border: solid 2px #226699;
+	padding: 4px ;
+	
+	background: #FFFFFF;
+	
+ }
+ .imgCel{
+	 background: #FFFFFF;
+ }
+  
+tr>  td >a {
+	text-decoration: none;
+	color: #AA0000;
+}
+td ,th{
+	height: 40px;
+}

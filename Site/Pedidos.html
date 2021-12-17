@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+
+		<title>Pedidos</title>
+		<meta charset="utf-8">	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>	
+		
+		<header> 
+					<!-- endereço -->
+					
+				 <img class="imgLog" src="Imagens/AmigoUrso_topo.png"> 
+				<p class="ender">Rua Apis Mellifera,1 <br> Tel:(21)91122-3344<br><a href=""> contato@zangao.com.br</a>
+			
+		</header>
+		<nav>
+					<!-- links da página -->
+			 <ul>
+			 	<li><a href="AmigoUrso.html">Apresentação</a></li>
+			 	<li><a href="MisturadeMel.html">Mistura de Mel</a></li>
+			 	<li><a href="DiretoDaAbelha.html">Direto da Abelha</a></li>
+			 	<li><a href="Pedidos.html">Pedidos</a></li>
+
+			 </ul>	
+		</nav>   
+		<section > 
+					<!-- início do fomulário -->
+			<div class="divCompras">
+				<form method="post"  >
+			
+					<h3>Compras</h3>
+				
+						<fieldset >
+									<!-- identificação -->
+								<legend> Identificação</legend>
+							
+								<label for="nome" class="colPri" >Nome:</label>
+								<input type="text" name="nome" id="nome" class="impGrande" required > <br><br>
+
+								<label for="email" class="colPri" >E-mail:</label>
+								<input type="email" name="email" id="email" class="impGrande" required><br><br>
+
+						<div class="elemDir">
+							<fieldset>	
+									<!-- genero -->
+								<legend> Genero:</legend>
+								<input type="radio" name="sexo"  class="input-radio" value="m" checked>
+								<label for="Masculino">Mas</label>
+								
+								<input type="radio" name="sexo" class="input-radio" value="f">
+								<label for="Feminino">Fem</label>
+								
+								<input type="radio" name="sexo" class="input-radio" value="ou">	
+								<label for=" outro">Outro</label>
+								
+							</fieldset>
+						</div> 
+
+								<label for="ender"  class="colPri" >Endereço:</label>
+								<textarea class="impEnder"></textarea> <br><br>
+
+						<div class="elemDir">
+							<fieldset class="fsDir">
+									<!-- Data de nascimento -->
+
+								<legend>Nascimento:</legend>
+								<input type="number" class="numDD" name="dia" min="1" max="31"> / <input type="number" class="numDD" name="mes" min="1" max="12"> / <input type="number" class="numQD" name="ano"> 
+	
+							</fieldset>
+							</div>	
+									<!-- número de telefone -->
+								<label for="tel " class="colPri" >Telefone:</label>
+								<input type="text" name="number" class="impTelef" onChange="verificar2(this)" required ><br><br>
+							
+							
+								<label for="nome" class="colPri">Celular:</label>
+								<input type="text" name="DDD" value="" onChange="verificar1(this)"  class="impTelef" required> <br><br>
+							
+						</fieldset>
+									<!-- seleção de produtos -->
+						<fieldset>
+						<legend> Seleção de Produtos e Pagamentos </legend>
+					<div>
+							<select class="linhaProdSel" >
+								<option>-----</option> 
+								<optgroup  label ="Iogurte">
+									<option >Natural com mel (150g)</option>
+									<option>Zero lactose (150g)</option>
+								</optgroup>
+								<optgroup label="Balas">
+									<option>Gengibre e Mel (60g)</option>
+									<option>Mel e Anis (60g)</option>
+								</optgroup>
+								<optgroup label="Barra de Cereal">
+									<option>Mel e Granola (25g)</option>
+								</optgroup>
+								<optgroup label="Pote de Mel">
+									<option>Mel Floresta Silverstres (350g)</option>
+									<option>Mel de Eucalipto (450g)</option>
+									<option>Mel Flor de Laranjeira (750g)</option>
+								</optgroup>
+								<optgroup label="Própolis">
+									<option>Extrato (30ml)</option>
+									<option>Spray</option>
+								</optgroup>
+							</select>	
+					
+							<input type="submit" value="comprar" >
+					</div> <br>
+					<div class="colLabCrd">
+						<fieldset class="fsEsq">
+									<!-- dados do cartão -->
+
+						<legend>Cartão</legend>
+							<label for="bandeira">Bandeira:</label>
+					
+							<input type="radio"for="visa" name="visa" >
+							<label for="visa">Visa</label>
+							<input type="radio"for="visa" name="visa" >
+							<label for="master">Master</label>
+							<input type="radio"for="visa" name="visa" >
+							<label for="elo">Elo</label><br><br>
+
+							<label  for="validade" >Validade:</label>
+							<input type="number" name="data"class="numDD"> / <input type="number" name="botao2"class="numQD" ><br><br>
+
+							<label for="numero" >Número:</label>
+							<input type="text" for="numero" name="numero" class="impNCC">
+							
+						</fieldset>
+						
+					</div>	
+					<div >
+									<!--caixa de texto --> 
+
+							<textarea  cols="25" rows="7"  ></textarea><br><br>
+					</div>
+					<div class="elemDir">
+							<label name="Valor R$"> Valor R$</label>
+							<input type="nunber" class="impMedio" >
+					</div>
+						</fieldset>
+									<!-- botões de envio -->
+
+						<div class="botoes">
+							
+							<input type="submit" value="Enviar" class="botao-enviar">
+							<input type="reset" value="Limpar" class="botao-limpar">
+
+						</div>
+					
+				</form>
+			</div>	
+   		</section>
+	</body>
+</html>    
